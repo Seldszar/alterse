@@ -1,0 +1,12 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.speaker {
+  flex: none;
+  margin: 2rem;
+}

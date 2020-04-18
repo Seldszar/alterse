@@ -1,0 +1,10 @@
+{
+  "name": "Talk-show",
+  "paths": {
+    "public": "public/dist"
+  },
+  "discord": {
+    "token": "",
+    "channel": ""
+  }
+}

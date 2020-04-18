@@ -1,0 +1,33 @@
+.wrapper {
+  text-align: center;
+  width: 240px;
+}
+
+.avatar {
+  border-radius: 500px;
+  background-color: #333;
+  height: 180px;
+  margin-bottom: 1rem;
+  transition: all .5s ease;
+  width: 180px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.twitter {
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-style: italic;
+}
+
+.speaking {
+  .avatar {
+    box-shadow: 0 0 0 8px #fff;
+  }
+}
