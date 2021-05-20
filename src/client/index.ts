@@ -53,6 +53,6 @@ export class Client<T> {
   }
 
   private onStateUpdated(data: any): void {
-    this.state.update(data.path, data.value);
+    this.state.update(data.key, data.value);
   }
 }
