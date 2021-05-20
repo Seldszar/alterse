@@ -70,6 +70,9 @@
   },
   "pkg": {
     "outputPath": "build",
+    "assets": [
+      "dist/client-compiled/*"
+    ],
     "scripts": [
       "node_modules/discord.js/src/client/websocket/handlers/*.js"
     ],
