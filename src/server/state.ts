@@ -22,8 +22,6 @@ export class State extends Emittery<EventDataMap> {
   set(key: string, value: any): void {
     this.nodes.set(key, value);
 
-    console.log(key, value);
-
     this.emit("change", {
       type: "set",
       value,
