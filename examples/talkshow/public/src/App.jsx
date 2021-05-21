@@ -8,15 +8,15 @@ const client = new alterse.Client();
 function useAlterse() {
   const [state, setState] = useState(client.state.value);
 
-  client.state.on("change", (value) => {
+  client.state.on("change", ({ value }) => {
     setState(value);
   });
 
-  return state;
+  return { client, state };
 }
 
 function App() {
-  const state = useAlterse();
+  const { state } = useAlterse();
 
   const speakers = useMemo(() => {
     const result = [];
